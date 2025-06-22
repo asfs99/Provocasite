@@ -1,0 +1,277 @@
+@font-face {
+    font-family: 'Brunson';
+    src: url('../font/brunson.ttf') format('truetype');
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 440px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+header {
+    padding-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.title-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.logo img {
+    width: 110px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.logo-svg {
+    stroke: #D40000;
+    display: block;
+    margin: 0 auto;
+    flex-shrink: 0;
+    margin: 5px 0 0 0;
+}
+
+.logo-svg-black {
+    stroke: #000;
+    display: block;
+    margin: 0 auto;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Brunson', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 3.8rem;
+    font-weight: 900;
+    color: #D40000;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    margin: 0;
+    border-bottom: none;
+}
+
+.redesign {
+    font-family: 'Brunson', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 900;
+    letter-spacing: 0.02em;
+    margin: 5px 0 0 0;
+    white-space: nowrap;
+}
+
+.redesign .black {
+    color: #000;
+}
+
+.redesign span {
+    color: #D40000;
+    margin: 0 4px;
+}
+
+.manifesto-header {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-bottom: 0;
+    color: #D40000;
+    font-weight: normal;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+section {
+    width: 100%;
+    padding: 0;
+    border: none;
+    margin-bottom: 0;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+h2 {
+    font-family: 'Brunson', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: #D40000;
+    margin: 0 0 15px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    text-align: left;
+    max-width: 340px;
+}
+
+p, li {
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: left;
+    margin: 0 0 1em 0;
+    max-width: 340px;
+    color: #D40000;
+}
+
+.quem-somos p {
+    text-align: left;
+}
+
+.sticker-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background: none;
+    border: none;
+    align-self: center;
+}
+.sticker-section img {
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0 auto;
+    display: block;
+    max-width: 340px;
+    position: relative;
+}
+
+.o-que-defendemos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    max-width: 340px;
+}
+
+.o-que-defendemos li {
+    margin-bottom: 2px;
+    padding-left: 15px;
+    position: relative;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: left;
+    width: auto;
+    margin-left: 0;
+}
+
+.o-que-defendemos li::before {
+    content: '•';
+    color: #D40000;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    width: auto;
+    margin-left: 0;
+    text-align: center;
+}
+
+.logo-section {
+    padding: 20px 0;
+    align-self: center;
+}
+.logo-section .logo img {
+    width: 300px;
+}
+
+.manifesto p {
+    text-align: center;
+    margin-bottom: 0.7em;
+}
+
+.junta-te {
+    text-align: left;
+}
+.junta-te p {
+    text-align: left;
+    margin-bottom: 2px;
+    width: 240px;
+}
+
+.junta-te .icon {
+    display: inline-block;
+    margin-right: 8px;
+    color: #888;
+    text-align: center;
+}
+
+.junta-te h2 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+footer {
+    align-self: center;
+    margin-top: 60px;
+    font-size: 0.9rem;
+    color: #888;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+footer p {
+    text-align: center;
+    color: #888;
+}
+
+/* Mobile-first adjustments */
+@media (max-width: 440px) {
+    .container {
+        width: 100vw;
+        padding: 0 15px;
+    }
+}
